@@ -30,16 +30,32 @@ function App() {
 
       <section>
         <div className='flex flex-col md:flex-row container justify-between gap-7 py-16'>
-          <div className='bg-linear-to-r from-indigo-400 to-indigo-600 text-white rounded w-200 h-70 flex flex-col justify-center items-center'>
+          <div className='bg-linear-to-r from-indigo-400 to-indigo-600 text-white rounded w-200 h-63 flex flex-col justify-center items-center relative ' >
+            <div
+                className="absolute inset-0 bg-no-repeat bg-auto"
+                style={{ backgroundImage: "url('/vector1.png')" }}
+              ></div>
+              <div
+                className="absolute inset-0 bg-no-repeat bg-auto  scale-x-[-1]"
+                style={{ backgroundImage: "url('/vector1.png')" }}
+              ></div>
+          
             <h1 className='text-2xl'>In-Progress</h1>
             <p className='text-4xl'>0</p>
           </div>
-          <div className='bg-linear-to-r from-green-400 to-green-600 text-white  rounded w-200 h-70 flex flex-col justify-center items-center'>
+          <div className='bg-linear-to-r from-green-400 to-green-600 text-white  rounded w-200 h-63 flex flex-col justify-center items-center relative'>
+            <div
+                className="absolute inset-0 bg-no-repeat bg-auto"
+                style={{ backgroundImage: "url('/vector1.png')" }}
+              ></div>
+              <div
+                className="absolute inset-0 bg-no-repeat bg-auto  scale-x-[-1]"
+                style={{ backgroundImage: "url('/vector1.png')" }}
+              ></div>
             <h1 className='text-2xl'>Resolved</h1>
             <p className='text-4xl'>0</p>
         </div>
         </div>
-        
       </section>
 
 
