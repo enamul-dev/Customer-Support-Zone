@@ -63,6 +63,44 @@ function App() {
         
       </section>
 
+
+
+  <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content grid-rows-2 p-10 bg-black flex justify-around">
+    <nav className='w-96'>
+      <h5 className='text-3xl mb-5'>CS-- Ticket System</h5>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </nav>
+  
+  <nav className='flex flex-col'>
+    <h6 className="footer-title text-2xl mb-5">Company</h6>
+    <a className="link link-hover">About us</a>
+    <a className="link link-hover">Contact</a>
+    <a className="link link-hover">Jobs</a>
+    <a className="link link-hover">Press kit</a>
+  </nav>
+  <nav className='flex flex-col'>
+    <h6 className="footer-title text-2xl mb-5">Services</h6>
+    <a className="link link-hover">Branding</a>
+    <a className="link link-hover">Design</a>
+    <a className="link link-hover">Marketing</a>
+    <a className="link link-hover">Advertisement</a>
+  </nav>
+  <nav className='flex flex-col'>
+    <h6 className="footer-title text-2xl mb-5">Information</h6>
+    <a className="link link-hover">Privacy Policy</a>
+    <a className="link link-hover">Design</a>
+    <a className="link link-hover">Marketing</a>
+    <a className="link link-hover">Advertisement</a>
+  </nav>
+  <nav className='flex flex-col'>
+    <h6 className="footer-title text-2xl mb-5">Social</h6>
+    <a className="link link-hover"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+    <a className="link link-hover"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    <a className="link link-hover"><i class="fa-brands fa-facebook"></i> Facebook</a>
+    <a className="link link-hover"><i class="fa-brands fa-github"></i> GitHub</a>
+  </nav>
+ 
+</footer>
     </>
   )
 }

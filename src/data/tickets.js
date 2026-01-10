@@ -2,7 +2,7 @@ export const tickets = [
   {
     "id": 1,
     "title": "Cannot login to account",
-    "description": "User reports that login fails with correct email and password.",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
     "customer": "Rahim Ahmed",
     "priority": "High",
     "status": "Open",
@@ -11,7 +11,7 @@ export const tickets = [
   {
     "id": 2,
     "title": "Payment not processed",
-    "description": "Customer was charged but order did not go through.",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
     "customer": "Fatima Khan",
     "priority": "High",
     "status": "In Progress",
@@ -20,7 +20,7 @@ export const tickets = [
   {
     "id": 3,
     "title": "Website loading slowly",
-    "description": "Pages take more than 10 seconds to load.",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is....",
     "customer": "Imran Hossain",
     "priority": "Medium",
     "status": "Open",
@@ -38,7 +38,7 @@ export const tickets = [
   {
     "id": 5,
     "title": "Profile update failed",
-    "description": "Customer cannot update phone number in profile.",
+    "description": "Customer requested a refund two weeks ago but has not received the amount yet.",
     "customer": "Sabbir Rahman",
     "priority": "Low",
     "status": "Open",
@@ -47,7 +47,7 @@ export const tickets = [
   {
     "id": 6,
     "title": "Order status incorrect",
-    "description": "Order shows delivered but customer has not received it.",
+    "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
     "customer": "Ayesha Akter",
     "priority": "High",
     "status": "In Progress",
@@ -56,7 +56,7 @@ export const tickets = [
   {
     "id": 7,
     "title": "Refund request",
-    "description": "Customer wants a refund for a canceled order.",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
     "customer": "Tanvir Islam",
     "priority": "Medium",
     "status": "Open",
@@ -65,7 +65,7 @@ export const tickets = [
   {
     "id": 8,
     "title": "App crashes on startup",
-    "description": "Mobile app closes immediately after opening.",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
     "customer": "Maliha Chowdhury",
     "priority": "High",
     "status": "In Progress",
@@ -74,7 +74,7 @@ export const tickets = [
   {
     "id": 9,
     "title": "Unable to upload files",
-    "description": "User gets error when uploading documents.",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
     "customer": "Rafi Hasan",
     "priority": "Medium",
     "status": "Resolved",
@@ -83,7 +83,7 @@ export const tickets = [
   {
     "id": 10,
     "title": "Email notifications not received",
-    "description": "Customer is not receiving any system emails.",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
     "customer": "Shirin Akter",
     "priority": "Low",
     "status": "Open",
@@ -91,47 +91,21 @@ export const tickets = [
   },
   {
     "id": 11,
-    "title": "Billing address error",
-    "description": "Billing address cannot be updated in settings.",
-    "customer": "Omar Faruk",
+    "title": "Unable to upload files",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+    "customer": "Rafi Hasan",
     "priority": "Medium",
-    "status": "In Progress",
-    "createdAt": "2026-01-11"
+    "status": "Resolved",
+    "createdAt": "2026-01-09"
   },
   {
     "id": 12,
-    "title": "Two-factor authentication issue",
-    "description": "OTP not arriving on the phone.",
-    "customer": "Lamia Rahman",
-    "priority": "High",
-    "status": "Open",
-    "createdAt": "2026-01-12"
-  },
-  {
-    "id": 13,
-    "title": "Search not working",
-    "description": "Search bar returns no results even for valid keywords.",
-    "customer": "Fahim Uddin",
-    "priority": "Medium",
-    "status": "Resolved",
-    "createdAt": "2026-01-13"
-  },
-  {
-    "id": 14,
-    "title": "Cannot download invoice",
-    "description": "Invoice download button does nothing.",
-    "customer": "Nabila Sultana",
+    "title": "Email notifications not received",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+    "customer": "Shirin Akter",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-01-14"
+    "createdAt": "2026-01-10"
   },
-  {
-    "id": 15,
-    "title": "Account suspended by mistake",
-    "description": "Customer says account was blocked without reason.",
-    "customer": "Zahid Karim",
-    "priority": "High",
-    "status": "In Progress",
-    "createdAt": "2026-01-15"
-  }
+  
 ]

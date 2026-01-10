@@ -4,7 +4,7 @@ function TicketList() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 mx-auto text-black ">
       {tickets.map((ticket) => (
-        <div key={ticket.id} className="card bg-white shadow-md border rounded-lg">
+        <div key={ticket.id} className="card bg-white shadow-md  rounded-lg">
           <div className="card-body px-7 py-5">
             {/* Ticket title */}
             <span className="flex justify-between">
